@@ -77,5 +77,6 @@ The default system password stored in EEPROM is 1010
 ### Logged Events
 - ON -> System power ON
 - C -> Collision detection
-- GR - Reverse gear
+- GN -> Neutral gear
+- GR -> Reverse gear
 - G1-G4 -> Gear positions
