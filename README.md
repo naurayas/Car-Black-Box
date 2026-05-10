@@ -42,6 +42,7 @@ The DS1307 RTC module is used to maintain real-time clock functionality and allo
 - UART : Used for downloading stored logs.
 
 ## Project Structure
+```bash
 .
 ├── adc.c
 ├── car_black_box_def.c
@@ -55,7 +56,7 @@ The DS1307 RTC module is used to maintain real-time clock functionality and allo
 ├── main.h
 ├── timers.c
 ├── uart.c
-
+```
 ## Working Principle
 The system continuously reads vehicle speed using ADC and monitors user inputs for events such as gear changes and collisions. Whenever an event occurs, the corresponding time, event type, and speed are stored in external EEPROM memory. Users can access the logs through a password-protected menu, view them on the CLCD, or download them through UART communication.
 
